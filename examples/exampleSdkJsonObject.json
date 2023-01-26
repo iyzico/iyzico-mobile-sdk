@@ -1,0 +1,56 @@
+{
+    "paymentBody": {
+        "paidPrice": "50.19",
+        "enabledInstallments": [2, 3, 6, 9],
+        "price": "50.19",
+        "paymentGroup": "PRODUCT",
+        "paymentSource": "MOBILE_SDK",
+        "callbackUrl": "https://www.merchant.com/callback",
+        "currency": "TRY",
+        "basketId": "B67832",
+        "buyer": {
+            "id": "BY789",
+            "name": "Emre",
+            "surname": "Çetin",
+            "identityNumber": "74300864791",
+            "email": "emre.cetin@iyzico.com",
+            "gsmNumber": "+905555555555",
+            "registrationAddress": "Adres",
+            "city": "Istanbul",
+            "country": "Turkey",
+            "ip": "buyer Ip"
+        },
+        "shippingAddress": {
+            "address": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
+            "contactName": "Emre Çetin",
+            "city": "Istanbul",
+            "country": "Turkey"
+        },
+        "billingAddress": {
+            "address": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
+            "contactName": "Emre Çetin",
+            "city": "Istanbul",
+            "country": "Turkey"
+        },
+        "basketItems": [
+            {
+                "id": "BI101",
+                "price": "50.19",
+                "name": "Binocular",
+                "category1": "Collectibles",
+                "itemType": "PHYSICAL"
+            }
+        ],
+        "mobileDeviceInfoDto": {
+            "sdkVersion": "v1.0.1",
+            "operatingSystemVersion": "iOS - 13",
+            "model": "iPhone 10",
+            "brand": "Apple"
+        }
+    },
+    "thirdPartyClientId": "iyzico",
+    "thirdPartyClientSecret": "iyzicoSecret",
+    "merchantApiKey": "sandbox-FAXC123jF3qdtJw1rpL1FGAS521",
+    "merchantSecretKey": "sandbox-ZavaQFqTtasbAq41A",
+    "sdkType": "pwi"
+}
