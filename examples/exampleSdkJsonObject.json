@@ -10,10 +10,10 @@
         "basketId": "B67832",
         "buyer": {
             "id": "BY789",
-            "name": "Emre",
-            "surname": "Çetin",
+            "name": "John",
+            "surname": "Buyer",
             "identityNumber": "74300864791",
-            "email": "emre.cetin@iyzico.com",
+            "email": "john.buyer@mail.com",
             "gsmNumber": "+905555555555",
             "registrationAddress": "Adres",
             "city": "Istanbul",
@@ -22,13 +22,13 @@
         },
         "shippingAddress": {
             "address": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
-            "contactName": "Emre Çetin",
+            "contactName": "John Buyer",
             "city": "Istanbul",
             "country": "Turkey"
         },
         "billingAddress": {
             "address": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
-            "contactName": "Emre Çetin",
+            "contactName": "John Buyer",
             "city": "Istanbul",
             "country": "Turkey"
         },
