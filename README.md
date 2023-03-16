@@ -45,7 +45,8 @@ iyzico Mobil SDK' yi kullanabilmek için <a href="mailto:entegrasyon@iyzico.com"
 | merchantApiKey | iyzico tarafından verilir. |
 | merchantSecretKey | iyzico tarafından verilir. |
 | sdkType | Kullanılacak sdk bilgisidir. Alabileceği değerler  (<b>pwi</b>) |
-| locale | Sdk ve akışın dilini belirler. Alabileceği değerler (<b>tr, en</b>)
+| conversationId | Yapılan işlemin uniq değeridir. Random olarak oluşturulmalıdır. |
+| locale | Sdk ve akışın dilini belirler. Alabileceği değerler (<b>tr, en</b>) |
 | brand | Markanızın ismidir. |
 | price | Toplam sepet tutarıdır. |
 | paidPrice | Müşterinin ödeyeceği toplam tutardır. |

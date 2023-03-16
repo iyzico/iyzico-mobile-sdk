@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings = myWebView.getSettings();
         //The following line must be added for the javascript to work.
         webSettings.setJavaScriptEnabled(true);
-        String sdkUrl = "http://localhost:3000/";
+        String sdkUrl = "https://sandbox-mobil-sdk.iyzipay.com/";
         myWebView.loadUrl(sdkUrl);
 
 
@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
                         JSONObject sdkObject = new JSONObject();
                         JSONObject paymentBody = new JSONObject();
 
+                        paymentBody.put("locale", "tr");
+                        paymentBody.put("conversationId", "123456789");
                         paymentBody.put("price", "50.19");
                         paymentBody.put("paidPrice", "50.19");
                         paymentBody.put("currency", "TRY");

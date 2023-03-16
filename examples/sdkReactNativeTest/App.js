@@ -5,12 +5,14 @@ import {WebView} from 'react-native-webview';
 
 const App = () => {
   const webviewRef = useRef(null);
-  const sdkWebUrl = 'http://localhost:3000/';
+  const sdkWebUrl = 'https://sandbox-mobil-sdk.iyzipay.com/';
 
   const onPageLoadEnd = async ({nativeEvent}) => {
     // Generate of the JSON Object required to initialize Sdk and PWI payment;
     // Descriptions of these parameters can be found in the Integration Document.
     const paymentBody = {
+      locale: 'tr',
+      conversationId: '123456789',
       paidPrice: '50.19',
       enabledInstallments: [2, 3, 6, 9],
       price: '50.19',

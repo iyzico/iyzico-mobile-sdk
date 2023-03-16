@@ -12,7 +12,7 @@ import WebKit
 class ViewController: UIViewController, WKUIDelegate,WKNavigationDelegate {
     
     var webView: WKWebView!
-    let sdkWebUrl: String = "http://localhost:3000/";
+    let sdkWebUrl: String = "https://sandbox-mobil-sdk.iyzipay.com/";
     
     // The event listener that listens to the loading process of the page opened on the webview.
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
@@ -24,6 +24,8 @@ class ViewController: UIViewController, WKUIDelegate,WKNavigationDelegate {
                 // Descriptions of these parameters can be found in the Integration Document.
                 let sdkObject: [String: Any] = [
                     "paymentBody": [
+                        "locale": "tr",
+                        "conversationId": "123456789",
                         "paidPrice":"50.19",
                         "enabledInstallments": [2,3,6,9],
                         "price":"50.19",
