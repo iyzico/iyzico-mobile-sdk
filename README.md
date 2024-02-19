@@ -148,4 +148,4 @@ iyzico mobil sdk bir web projesidir ve mobil webview üzerinde çalışır. Gere
 <a href="https://github.com/iyzico/iyzico-mobile-sdk/tree/main/examples/sdkReactNativeTest">React Native kullanımı için github üzerinde örnek javascript akışı </a>
 
 ## Web(React) Kullanım
-<a href="https://github.com/iyzico/iyzico-mobile-sdk/tree/main/examples/sdkReactTest">Web(React) kullanımı için github üzerinde örnek javascript akışı </a>
+<a href="https://github.com/iyzico/iyzico-mobile-sdk/tree/main/examples/sdkReactTest">Web kullanımı için github üzerinde örnek javascript akışı </a>
