@@ -26,6 +26,7 @@ Bu doküman tüm mobil ortamlardaki (<b>Android / Ios / React Native / vb.</b>) 
     - ### Android Kullanım
     - ### IOS Kullanım
     - ### React Native Kullanım
+    - ### Web Kullanımı (React)
 
 <br />
 
@@ -114,8 +115,8 @@ iyzico mobil sdk bir web projesidir ve mobil webview üzerinde çalışır. Gere
 
 ### Entegrasyon Akış sırasıyla;
 
-1. Projeye Webview entegre edilir.
-2. Webview üzerinden sdk'in web url'i açılır.
+1. Projeye Webview entegre edilir. (SADECE MOBIL ENTEGRASYONU İÇİN)
+2. Webview(IFrame) üzerinden sdk'in web url'i açılır.
 3. Gerekli olan JSON Objesi oluşturulur. <a href="https://github.com/iyzico/iyzico-mobile-sdk/tree/main/examples/exampleSdkJsonObject.json">Beklenen Örnek JSON Objesi </a>
 4. Oluşturulan JSON Objesi string formatına çevrilir.
 5. Message event'i üzerinden sdk tarafına aktarılır.
@@ -145,3 +146,6 @@ iyzico mobil sdk bir web projesidir ve mobil webview üzerinde çalışır. Gere
 
 ## React Native Kullanım
 <a href="https://github.com/iyzico/iyzico-mobile-sdk/tree/main/examples/sdkReactNativeTest">React Native kullanımı için github üzerinde örnek javascript akışı </a>
+
+## Web(React) Kullanım
+<a href="https://github.com/iyzico/iyzico-mobile-sdk/tree/main/examples/sdkReactTest">Web(React) kullanımı için github üzerinde örnek javascript akışı </a>
